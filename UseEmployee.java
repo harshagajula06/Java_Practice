@@ -21,7 +21,9 @@ class UseEmployee
             int age = scan.nextInt();
             System.out.println("Enter Employee Department:");
             String dept = scan.next();
-            e[i] = new Employee(id,name,age,dept);
+            System.out.println("Enter Employee Experience:");
+            int exp = scan.nextInt();
+            e[i] = new Employee(id,name,age,dept,exp);
         }
         for (Employee e1 : e) {
             e1.display();
