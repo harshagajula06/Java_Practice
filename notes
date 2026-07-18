@@ -1,0 +1,7 @@
+Interface:
+Interface is an specification
+from interfaces we can multi-inheritance
+Interface promotes standardization
+By using interface we can achieive 100% abstraction
+Inside interaction only abstract methods and constants are allowed
+By default all the methods in interface are "public abstract" and all the constants are "final static"
